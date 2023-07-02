@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitmqPublisher", "RabbitmqPublisher\RabbitmqPublisher.csproj", "{E6885086-61F3-40C8-9EBF-64CA89CF20C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitmqPublisher", "RabbitmqPublisher\RabbitmqPublisher.csproj", "{E6885086-61F3-40C8-9EBF-64CA89CF20C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitmqConsumer", "RabbitmqConsumer\RabbitmqConsumer.csproj", "{26906998-6D77-45BB-B2AB-BA4552C16CF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitmqConsumer", "RabbitmqConsumer\RabbitmqConsumer.csproj", "{26906998-6D77-45BB-B2AB-BA4552C16CF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTask", "NewTask\NewTask.csproj", "{F6213060-A474-44F8-ADAC-D31645005A7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTask", "NewTask\NewTask.csproj", "{F6213060-A474-44F8-ADAC-D31645005A7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker", "Worker\Worker.csproj", "{CFFD11FA-8E5E-4A69-9891-E69F2CCCDD16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worker", "Worker\Worker.csproj", "{CFFD11FA-8E5E-4A69-9891-E69F2CCCDD16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLog", "EmitLog\EmitLog.csproj", "{ABE13E73-B04F-42BB-B346-BF5B30F828C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLog", "ReceiveLog\ReceiveLog.csproj", "{C3FDBD84-5AD4-4A17-8547-53E56067050F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{CFFD11FA-8E5E-4A69-9891-E69F2CCCDD16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFFD11FA-8E5E-4A69-9891-E69F2CCCDD16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFFD11FA-8E5E-4A69-9891-E69F2CCCDD16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE13E73-B04F-42BB-B346-BF5B30F828C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE13E73-B04F-42BB-B346-BF5B30F828C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE13E73-B04F-42BB-B346-BF5B30F828C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE13E73-B04F-42BB-B346-BF5B30F828C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3FDBD84-5AD4-4A17-8547-53E56067050F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FDBD84-5AD4-4A17-8547-53E56067050F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FDBD84-5AD4-4A17-8547-53E56067050F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FDBD84-5AD4-4A17-8547-53E56067050F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
