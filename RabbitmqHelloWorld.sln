@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitmqPublisher", "Rabbit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitmqConsumer", "RabbitmqConsumer\RabbitmqConsumer.csproj", "{26906998-6D77-45BB-B2AB-BA4552C16CF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTask", "NewTask\NewTask.csproj", "{F6213060-A474-44F8-ADAC-D31645005A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker", "Worker\Worker.csproj", "{CFFD11FA-8E5E-4A69-9891-E69F2CCCDD16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{26906998-6D77-45BB-B2AB-BA4552C16CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26906998-6D77-45BB-B2AB-BA4552C16CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26906998-6D77-45BB-B2AB-BA4552C16CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6213060-A474-44F8-ADAC-D31645005A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6213060-A474-44F8-ADAC-D31645005A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6213060-A474-44F8-ADAC-D31645005A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6213060-A474-44F8-ADAC-D31645005A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFD11FA-8E5E-4A69-9891-E69F2CCCDD16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFD11FA-8E5E-4A69-9891-E69F2CCCDD16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFD11FA-8E5E-4A69-9891-E69F2CCCDD16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFD11FA-8E5E-4A69-9891-E69F2CCCDD16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
