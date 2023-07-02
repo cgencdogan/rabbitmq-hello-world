@@ -24,9 +24,11 @@ consumer.Received += (model, ea) =>
     Thread.Sleep(dots * 1000);
 
     Console.WriteLine(" [x] Done");
+
+    channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
 };
 channel.BasicConsume(queue: "hello",
-                     autoAck: true,
+                     autoAck: false,
                      consumer: consumer);
 
 Console.WriteLine(" Press [enter] to exit.");
