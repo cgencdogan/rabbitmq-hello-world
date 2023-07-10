@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTask", "NewTask\NewTask.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worker", "Worker\Worker.csproj", "{CFFD11FA-8E5E-4A69-9891-E69F2CCCDD16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLog", "EmitLog\EmitLog.csproj", "{ABE13E73-B04F-42BB-B346-BF5B30F828C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLog", "EmitLog\EmitLog.csproj", "{ABE13E73-B04F-42BB-B346-BF5B30F828C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLog", "ReceiveLog\ReceiveLog.csproj", "{C3FDBD84-5AD4-4A17-8547-53E56067050F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLog", "ReceiveLog\ReceiveLog.csproj", "{C3FDBD84-5AD4-4A17-8547-53E56067050F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogDirect", "EmitLogDirect\EmitLogDirect.csproj", "{A838B44F-BF5E-4014-9C83-F18D9F4E85D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogDirect", "ReceiveLogDirect\ReceiveLogDirect.csproj", "{753D475D-A38F-4F5A-A315-F1DAD4D6BA85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{C3FDBD84-5AD4-4A17-8547-53E56067050F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3FDBD84-5AD4-4A17-8547-53E56067050F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3FDBD84-5AD4-4A17-8547-53E56067050F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A838B44F-BF5E-4014-9C83-F18D9F4E85D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A838B44F-BF5E-4014-9C83-F18D9F4E85D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A838B44F-BF5E-4014-9C83-F18D9F4E85D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A838B44F-BF5E-4014-9C83-F18D9F4E85D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{753D475D-A38F-4F5A-A315-F1DAD4D6BA85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{753D475D-A38F-4F5A-A315-F1DAD4D6BA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{753D475D-A38F-4F5A-A315-F1DAD4D6BA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{753D475D-A38F-4F5A-A315-F1DAD4D6BA85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
